@@ -1,7 +1,13 @@
+[data-role="tabs"] > ul {
+	margin-bottom: 0.39em;
+}
+
+[data-role="tabs"] > ul li {
+	display: inline;
+}
 .ui-tabs-content {
-  display: none;
-  margin-top: -15px;
+	display: none;
 }
 .ui-tabs-content-active {
-  display: block;
+	display: block;
 }
