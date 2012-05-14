@@ -41,3 +41,9 @@ This being said, here's a sample of the usage:
 			</div>
 		</div>
 	</div>
+
+	<script type="text/javascript">
+	//<!--
+		var tabs = $(':jqmData(role="tabs")').tabs();
+	//-->
+	</script>
