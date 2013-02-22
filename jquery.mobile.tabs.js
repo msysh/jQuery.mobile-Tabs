@@ -46,7 +46,7 @@ $.widget("mobile.tabs", $.mobile.widget, {
 		if ($tabs.filter('.ui-btn-active').length == 0){
 			$tabs.first().addClass('ui-btn-active');
 		}
-		$tabContents.filter('#' + $tabs.eq($this.currentTabIndex()).attr('href')).addClass('ui-tabs-content-active');
+		$tabContents.filter($tabs.eq($this.currentTabIndex()).attr('href')).addClass('ui-tabs-content-active');
 
 		$tabs
 			.bind('click', function(event) {
